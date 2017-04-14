@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.pvirtech.licenseplate.mylibrary.InputPlateActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="请输入车牌号码"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.74dp"
+            android:background="#B2E2B4"/>
+
+
+        <!-- 6位密码框布局，需要一个圆角边框的shape作为layout的背景 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/psw_input_area_bg"
+            android:orientation="horizontal">
+
+            <!-- inputType设置隐藏密码明文
+                 textSize设置大一点，否则“点”太小了，不美观 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.66dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.66dp"
+                android:layout_marginTop="0.66dp"
+                android:background="#eeeeee"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="0.66dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.66dp"
+                android:layout_marginTop="0.66dp"
+                android:background="#eeeeee"/>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.66dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.66dp"
+                android:layout_marginTop="0.66dp"
+                android:background="#eeeeee"/>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.66dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.66dp"
+                android:layout_marginTop="0.66dp"
+                android:background="#eeeeee"/>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass5"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.66dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.66dp"
+                android:layout_marginTop="0.66dp"
+                android:background="#eeeeee"/>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_pass7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="36sp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#F0EFF4"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@android:color/white"
+        android:keyTextColor="#5E5E5E"
+        android:keyTextSize="25sp"
+        android:labelTextSize="25sp"
+        android:paddingTop="5dp"
+        android:shadowColor="#ffffff"
+        android:shadowRadius="0.0"
+        />
+</LinearLayout>
